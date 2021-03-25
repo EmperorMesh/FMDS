@@ -28,17 +28,18 @@ function Submit(event) {
 	}
 	
 	if(!validateName(lastname)){
-		alert(` Invalid Input for${lastname}' Lastname`)
+		return alert(` Invalid Input for${lastname}' Lastname`)
 	}
 
 	if(!validateEmail(email)){
-		alert(` Please Enter a ${email} Correct Email`)
+		return alert(` Please Enter a ${email} Correct Email`)
 	}
 	if(!passwordValidation(password)){
-		alert(`${password} PLease input a strong password`)
+		return alert(`${password} PLease input a strong password`)
 	}
-	if(password2 !== password ){
-		alert("Password do not match")
+	
+	if( password!==password2){
+		return alert("Password do not match")
 	
 	}
 }
