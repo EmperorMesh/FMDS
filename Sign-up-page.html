@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SIGN-UP-PAGE</title>
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="file.css" />
+    <link rel="stylesheet" type="text/css" href="boostrap/css/boostrap.css" />
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <h1><em>ITH FOOD MANAGEMENT SYSTEM</em></h1>
+
+    <div class="form">
+      <a href="#"><img alt="ITHorizons" src="/download.png" /></a>
+      <h1><em>Sign Up Here</em></h1>
+
+      <form action="/" method="post">
+        <div class="inputfield">
+          <!-- <label>First Name</label> -->
+          <input
+            type="text"
+            required
+            autocomplete="off"
+            placeholder="First Name"
+            id="firstname"
+          />
+          <!-- <i class="fas fa-2x fa-check-circle"></i>
+          <i class="fas fa-2x fa-exclamation-circle"></i> -->
+          <!-- <small>Error message</small> -->
+        </div>
+
+        <div class="inputfield">
+          <!-- <label> Last Name<span class="req">*</span> </label> -->
+          <input
+            type="text"
+            required
+            autocomplete="off"
+            placeholder="Last Name"
+            id="lastname"
+          />
+          <!-- <i class="fas fa-2x fa-check-circle"></i>
+          <i class="fas fa-2x fa-exclamation-circle"></i> -->
+          <!-- <small>Error message</small> -->
+        </div>
+
+        <div class="inputfield">
+          <!-- <label> Email Address<span class="req">*</span> </label> -->
+          <input
+            type="email"
+            required
+            autocomplete="off"
+            placeholder="Example@outlook.com"
+            id="email"
+          />
+          <!-- <i class="fas fa-2x fa-check-circle"></i>
+          <i class="fas fa-2x fa-exclamation-circle"></i> -->
+          <!-- <small>Error message</small>  -->
+        </div>
+
+        <div class="inputfield">
+          <!-- <label> Set A Password<span class="req">*</span> </label> -->
+          <select name="users">
+            <option>---Select Role---</option>
+            <option>USERS</option>
+            <option>ADMIN</option>
+            <option>SUPER-ADMIN</option>
+          </select>
+        </div>
+
+        <div class="inputfield">
+          <!-- <label> Set A Password<span class="req">*</span> </label> -->
+          <input
+            type="password"
+            required
+            autocomplete="off"
+            placeholder="Set A Password"
+            id="email"
+          />
+          <!-- <i class="fas fa-2x fa-check-circle"></i>
+          <i class="fas fa-2x fa-exclamation-circle"></i> -->
+          <!-- <small>Error message</small> -->
+        </div>
+
+        <div class="inputfield">
+          <!-- <label> Confirm Password<span class="req">*</span> </label> -->
+          <input
+            type="password"
+            required
+            autocomplete="off"
+            placeholder="Confirm Passwo rd"
+            id="password2"
+          />
+          <!-- <i class="fas fa-2x fa-check-circle"></i>
+          <i class="fas fa-2x fa-exclamation-circle"></i> -->
+          <!-- <small>Error message</small> -->
+        </div>
+
+        <button type="submit" class="button button-block btn btn-primary">
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="boostrap/js/popper.js"></script>
+    <script type="text/javascript" src="boostrap/js/boostrap.js"></script>
+  </body>
+</html>
